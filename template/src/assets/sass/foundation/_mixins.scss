@@ -1,0 +1,23 @@
+@mixin mobile {
+  @media screen and(max-width: 47.9375rem) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and(min-width:48rem) and(max-width: 61.9375rem) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and(min-width: 62rem) {
+    @content;
+  }
+}
+@mixin all_fonts_styles($font-size, $font-weight, $font-family, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-family: $font-family;
+  color: $color;
+}

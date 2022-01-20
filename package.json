@@ -1,0 +1,9 @@
+{
+  "name": "cra-easier-tmp",
+  "version": "1.0.0",
+  "description": "A React template to easier setups",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
